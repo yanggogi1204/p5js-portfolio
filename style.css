@@ -1,0 +1,54 @@
+body {
+	background: #FFF9E3;
+}
+
+/* assignment grid layout */
+.assignment-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	max-width: 700px;
+	margin: 40px auto 60px auto;
+}
+
+.assignment-col {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+
+.assignment-label {
+	font-size: 1.2rem;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	font-family: inherit;
+}
+
+
+.assignment-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2.2rem;
+	font-family: inherit;
+	font-weight: bold;
+	border: 4px solid #222;
+	border-radius: 8px;
+	background: #fff;
+	color: #222;
+	text-decoration: none;
+	height: 120px;
+	margin-bottom: 16px;
+	box-shadow: 0 2px 8px #eee;
+	transition: box-shadow 0.2s, background 0.2s;
+}
+header h1, header p {
+	text-align: center;
+}
+
+.assignment-box:hover {
+	box-shadow: 0 0 16px #888;
+	background: #f9f9f9;
+}
+
